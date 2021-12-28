@@ -13,7 +13,7 @@ if not mt5.initialize():
     mt5.shutdown()
 
 symbol = "EURUSD"
-eurgbp_rates = mt5.copy_rates_from_pos(symbol, mt5.TIMEFRAME_M15, 0, 100)
+eurgbp_rates = mt5.copy_rates_from_pos(symbol, mt5.TIMEFRAME_M15, 0, 200)
 
 # shut down connection to MetaTrader 5
 mt5.shutdown()
